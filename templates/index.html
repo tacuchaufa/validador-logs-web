@@ -59,6 +59,24 @@
             font-size: 12px;
             color: gray;
         }
+		
+		
+		input[type="file"] {
+			padding: 8px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+
+		button:disabled {
+			background-color: #95a5a6;
+			cursor: not-allowed;
+		}
+
+		#loading {
+			font-size: 14px;
+		}
+		
+		
     </style>
 
 </head>
@@ -68,21 +86,42 @@
 <div class="container">
 
     <h1>Validador de Logs</h1>
+	
+	<p style="text-align:center; color: #555;">
+		Seleccione un archivo ZIP con logs para ejecutar la validación.
+	</p>
 
-    <form action="/procesar" method="POST" enctype="multipart/form-data">
+    <form action="/procesar" method="post" enctype="multipart/form-data" onsubmit="mostrarCarga()">
 
         <label for="logs">Archivo de logs (.zip recomendado):</label>
         <input type="file" name="logs" accept=".zip,.txt" required>
 
-        <button type="submit">Procesar</button>
+        <button type="submit" id="btnProcesar">Procesar</button>
 
     </form>
+
+	
+	<div id="loading" style="display:none; text-align:center; margin-top:20px;">
+		<p style="font-weight:bold; color:#2c3e50;">Procesando archivo, por favor espere...</p>
+		<div style="margin-top:10px;">⏳</div>
+	</div>
 
     <div class="footer">
         Sistema de validación de logs - Versión Web
     </div>
 
 </div>
+
+	
+<script>
+	function mostrarCarga() {
+		document.getElementById("loading").style.display = "block";
+    
+	const boton = document.getElementById("btnProcesar");
+		boton.disabled = true;
+		boton.innerText = "Procesando...";
+	}
+</script>
 
 </body>
 </html>
