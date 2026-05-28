@@ -100,6 +100,9 @@
 
     </form>
 
+	<div style="text-align:center; margin-top:20px;">
+		<button onclick="reiniciarApp()">Nueva ejecución</button>
+	</div>
 	
 	<div id="loading" style="display:none; text-align:center; margin-top:20px;">
 		<p style="font-weight:bold; color:#2c3e50;">Procesando archivo, por favor espere...</p>
@@ -120,6 +123,10 @@
 	const boton = document.getElementById("btnProcesar");
 		boton.disabled = true;
 		boton.innerText = "Procesando...";
+	}
+		
+	function reiniciarApp() {
+		window.location.href = "/";
 	}
 </script>
 
