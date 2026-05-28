@@ -1,0 +1,31 @@
+;;; 
+Import: Release 19.0.0.0.0 - Production on Tue May 26 15:45:32 2026
+Version 19.22.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+;;; **************************************************************************
+;;; Parfile values:
+;;;  parfile:  cluster=N
+;;;  parfile:  trace=480300
+;;;  parfile:  metrics=Y
+;;;  parfile:  table_exists_action=APPEND
+;;;  parfile:  content=data_only
+;;;  parfile:  remap_schema=TFPOMSD8:PRDPCOWNW
+;;;  parfile:  data_options=SKIP_CONSTRAINT_ERRORS
+;;;  parfile:  logfile=HF.100010874.log
+;;;  parfile:  dumpfile=TFPOMSD8_PMECOMS8_Oms_PC_PART_HF_EHF_Stream08_20260520_
+;;;  _parfile: 120506.dmp
+;;;  parfile:  directory=HFDUMP
+;;;  parfile:  userid=HFGT/********@prdoms
+;;; **************************************************************************
+W-1 Startup took 0 seconds
+W-1 Master table "HFGT"."SYS_IMPORT_FULL_03" successfully loaded/unloaded
+Starting "HFGT"."SYS_IMPORT_FULL_03":  HFGT/********@prdoms parfile=PC_PART_without_truncate.par 
+W-1 Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
+W-1 . . imported "PRDPCOWNW"."TBDECODE"                      841.0 KB    8093 rows in 1 seconds using external_table
+W-1 . . imported "PRDPCOWNW"."TBVALID_VALUE"                 446.0 KB    4555 rows in 0 seconds using external_table
+W-1 . . imported "PRDPCOWNW"."TBDOMAIN"                      70.06 KB     506 rows in 0 seconds using external_table
+W-1      Completed 3 TABLE_EXPORT/TABLE/TABLE_DATA objects in 1 seconds
+Job "HFGT"."SYS_IMPORT_FULL_03" successfully completed at Tue May 26 15:45:40 2026 elapsed 0 00:00:08

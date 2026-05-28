@@ -1,0 +1,30 @@
+;;; 
+Import: Release 19.0.0.0.0 - Production on Tue May 26 15:06:15 2026
+Version 19.22.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+;;; **************************************************************************
+;;; Parfile values:
+;;;  parfile:  cluster=N
+;;;  parfile:  trace=480300
+;;;  parfile:  metrics=Y
+;;;  parfile:  table_exists_action=TRUNCATE
+;;;  parfile:  content=data_only
+;;;  parfile:  remap_schema=TFPABPDBO8:PRDREFWORK
+;;;  parfile:  logfile=HF.100010938.work.log
+;;;  parfile:  dumpfile=TFPABPDBO8_PMECABP8.dmp
+;;;  parfile:  directory=HFDUMP
+;;;  parfile:  userid=HFGT/********@PRDCUST
+;;; **************************************************************************
+W-1 Startup took 1 seconds
+W-1 Master table "HFGT"."SYS_IMPORT_FULL_02" successfully loaded/unloaded
+Starting "HFGT"."SYS_IMPORT_FULL_02":  HFGT/********@PRDCUST parfile=HFDump_work.par 
+W-1 Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
+W-1 . . imported "PRDREFWORK"."PC9_DEVICE_RATE_BY_COMM_P"    47.56 MB  469700 rows in 4 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC9_DEVICE_DISC_BY_LOC"       10.00 MB  107110 rows in 1 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC9_PORTABILITY_DISCOUNT"     11.80 KB      32 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC9_DEVICE_LOC_TRAN"          8.289 KB     129 rows in 0 seconds using external_table
+W-1      Completed 4 TABLE_EXPORT/TABLE/TABLE_DATA objects in 13 seconds
+Job "HFGT"."SYS_IMPORT_FULL_02" successfully completed at Tue May 26 15:07:12 2026 elapsed 0 00:00:55

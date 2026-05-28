@@ -1,0 +1,133 @@
+;;; 
+Import: Release 19.0.0.0.0 - Production on Tue May 26 14:44:04 2026
+Version 19.22.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+;;; **************************************************************************
+;;; Parfile values:
+;;;  parfile:  cluster=N
+;;;  parfile:  trace=480300
+;;;  parfile:  metrics=Y
+;;;  parfile:  table_exists_action=TRUNCATE
+;;;  parfile:  content=data_only
+;;;  parfile:  remap_schema=TFPABPDBO8:PRDREFWORK
+;;;  parfile:  logfile=HF.100010872.work.log
+;;;  parfile:  dumpfile=TFPABPDBO8_PMECABP8_Abp_NonIRC.dmp
+;;;  parfile:  directory=HFDUMP
+;;;  parfile:  userid=HFGT/********@PRDCUST
+;;; **************************************************************************
+W-1 Startup took 0 seconds
+W-1 Master table "HFGT"."SYS_IMPORT_FULL_02" successfully loaded/unloaded
+Starting "HFGT"."SYS_IMPORT_FULL_02":  HFGT/********@PRDCUST parfile=HFDump_work.par 
+W-1 Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
+W-1 . . imported "PRDREFWORK"."APE3_EPCEXT_OFFER_DETAILS"    68.71 MB  224067 rows in 1 seconds using external_table
+W-1 . . imported "PRDREFWORK"."APE3_EPCEXT_PRICING_ITEMS"    51.67 MB  209066 rows in 1 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC9_DEVICE_RATE_BY_COMM_P"    47.50 MB  469136 rows in 3 seconds using external_table
+W-1 . . imported "PRDREFWORK"."EPC1_DISTRIB_LOG"                 0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."APE1_ITEM_VERSION"            27.32 MB   14778 rows in 1 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PM1_ITEM_VERSION"             26.70 MB   14778 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."CSM_OFFER_PARAM"              20.47 MB   86991 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."CSM_OFFER"                    9.959 MB    7585 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."APE3_EPCEXT_OFFERS"           9.112 MB    8351 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC9_DEVICE_DISC_BY_LOC"       7.235 MB   77396 rows in 1 seconds using external_table
+W-1 . . imported "PRDREFWORK"."CSM_OFFER_ITEM"               3.698 MB   14205 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."APE1_VV_ELEMENT"              1.564 MB   20752 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PM1_VV_ELEMENT"               1.564 MB   20752 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."APE1_OFFER_VERSION"           1.209 MB    7587 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC9_LOGICAL_GRT"              606.9 KB    7697 rows in 1 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC1_CHARGE_CODE"              592.5 KB    9061 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_DISCOUNT_ITEMS"            576.0 KB    5536 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."APE1_VV_RELATION"             622.5 KB   23076 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PM1_VV_RELATION"              622.5 KB   23076 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_QUERY_AREA"                301.0 KB    4725 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC1_XML_DISTRIB"              14.46 MB     189 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_ELIGIBLE_LIST"             314.2 KB    4617 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PM1_OFFER_VERSION"            305.2 KB    7587 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."APE1_XML_DISTRIB"             14.28 MB     149 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PM1_XML_DISTRIB"              55.98 MB     149 rows in 1 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PM1_PACKAGE_VERSION"          218.9 KB   13165 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."APE1_PACKAGE_VERSION"         218.9 KB   13165 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC9_AA_CC_SERVICE_FILTER"     112.6 KB    3491 rows in 1 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PM1_ET_VALID_VALUES"          76.95 KB    1908 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_CONTRIBUTE_LIST"           65.60 KB     919 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC9_INST_FEE_N_RISK"          42.46 KB     488 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_SERVICE_FILTER_LIST"      31.17 KB     894 rows in 1 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_DISCOUNT_PLANS"            30.50 KB      29 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_EXTRA_DP_FIELDS"           26.85 KB     227 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_STEPS"                     24.85 KB     235 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."EPC1_TABLE_LOGIC"             23.54 KB     264 rows in 1 seconds using external_table
+W-1 . . imported "PRDREFWORK"."CM1_XML_DISTRIB"              4.523 MB       7 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_TIERS"                     21.78 KB     232 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_CONDITIONS"                20.43 KB      77 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC1_DISP_TARGET"              19.87 KB      22 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_DP_COMPONENTS"             19.49 KB      77 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_DI_TYPE_FIELDS"            18.52 KB      19 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC9_VLR_PREFIXES"             17.26 KB     354 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."APE3_EPCEXT_SERVICE_ITEMS"    16.67 KB      15 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_CRI_ITEMS"                 16.21 KB       2 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_CRI_PARAMS"                16.11 KB       1 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."BL1_XML_DISTRIB"              9.010 MB       6 rows in 1 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_DI_TYPES"                  14.76 KB       2 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC1_CM_ACTIVITY"              13.58 KB      87 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_PRE_RATE_NAVIGATION"      13.61 KB     176 rows in 1 seconds using external_table
+W-1 . . imported "PRDREFWORK"."AR1_XML_DISTRIB_COMMON"       19.22 KB       1 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."CL1_XML_DISTRIB_COMMON"       19.22 KB       1 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."TX1_XML_DISTRIB"              19.21 KB       1 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC9_PORTABILITY_DISCOUNT"     11.80 KB      32 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_COUNTRY_CODES"            10.68 KB     222 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."EPC1_DISTRIB_VERSION"         10.03 KB       1 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_PRE_RATE_SEARCH_METHD"    9.812 KB      66 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_NUMBER_ANALYSIS"          9.585 KB       3 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_CRI_POOL"                  9.703 KB       2 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_AUTH_EVENT_ACTION"        9.554 KB      15 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_SPECIAL_NUMBER"           9.421 KB       1 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_MRKT_PARAM"               9.125 KB      47 rows in 1 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_RATING_POLICY"            9.328 KB      10 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."RX1_XML_CONFIG"               9.242 KB       1 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_CRI_ALLOWED_OPS"           9.179 KB       1 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_VALIDITY_TIME"            8.062 KB      14 rows in 1 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_ANNOUNCE_SEND_ACTION"     8.031 KB       9 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_EVENT_NAME_LIST"          7.789 KB      41 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC1_RPL_POLICY"               7.265 KB      31 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."BL1_OFFER_ACT"                7.296 KB      10 rows in 1 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC1_OFFER_ACT"                7.296 KB      10 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PM1_PC_VERSIONS"              6.796 KB       1 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC1_EVENT_CHANGE_CONFIG"      6.843 KB       2 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC9_COBILLING_TO_SF"          6.625 KB       8 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_SUS_LEVEL_PER_BAL_AMT"    6.648 KB       6 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_DEST_CATEGORY"            6.343 KB      21 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_CATEGORY_LIST"             6.25 KB       9 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_RATE_GRP_MAP"             6.195 KB       9 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_PROVIDER_LIST"            6.125 KB       8 rows in 1 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_DEVICE_RANK"              6.070 KB       6 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_ORIG_CATEGORY"            6.054 KB       4 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_PLAN_RANK"                6.031 KB       4 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_RATE_GRP_LIST"            5.679 KB       9 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_SUS_LEVEL_PER_SF"         5.625 KB       5 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_SERVICE_TYPE_DETERM"      5.531 KB       2 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_CRI_CONNECTIONS"               0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_CRI_PREDEF_VALUES"             0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_DI_FIELD_VVS"                  0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_DP_CATEGORIES"                 0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_DP_CAT_GROUPING"               0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_EXTRA_COND_FIELDS"             0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."DE_EXTRA_DPC_FIELDS"              0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."EPC1_PKG_HISTORY"                 0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC1_BP_REFERENCE"                 0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC1_CONTACTS"                     0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC1_SALES_CHANNEL"                0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC1_STATE_CHANGE_CODE"            0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC1_TRACKING_REF"                 0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_CATEGORY_TO_CHG_CODE"         0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_CAT_MERCHANT_TO_DEST"         0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_MERCHANT_LIST"                0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_PROVIDER_INFO"                0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC3_SERVICE_FILTER"               0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC9_DEVICE_DISC_RATE"             0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC9_DEVICE_RATE_BY_COMM_C"        0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC9_LOYALTY_RATE"                 0 KB       0 rows in 0 seconds using external_table
+W-1 . . imported "PRDREFWORK"."PC9_SHIPMENT_RATE"                0 KB       0 rows in 0 seconds using external_table
+W-1      Completed 107 TABLE_EXPORT/TABLE/TABLE_DATA objects in 97 seconds
+Job "HFGT"."SYS_IMPORT_FULL_02" successfully completed at Tue May 26 14:46:38 2026 elapsed 0 00:02:31

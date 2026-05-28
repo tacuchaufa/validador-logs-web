@@ -1,0 +1,18 @@
+[WARNING] - D:\PROYECTOS\validador_log_web\logs_extraidos\20260526\100010890\Imp_log_SAREFW_100010890_260526151251.log
+
+
+RESUMEN DE LA REVISIÓN
+Total de archivos analizados: 11
+Total de coincidencias: 1
+
+Conteo por código:
+ORA-: 0
+ERROR: 0
+SP2: 0
+IMP-: 0
+EXP-: 0
+UDI-: 0
+PLS-: 0
+SQL-: 0
+WARNING: 1
+INVALID: 0
