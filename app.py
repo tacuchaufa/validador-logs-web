@@ -2,6 +2,7 @@ from flask import Flask, request, render_template, send_file
 from procesador import procesar_logs
 import os
 import zipfile
+import shutil
 from datetime import datetime
 
 # --------------------------------
@@ -60,13 +61,17 @@ def procesar():
     carpeta_logs_procesados = LOGS_FOLDER
 
     # Limpiar carpeta antes de usarla
+
     for archivo in os.listdir(carpeta_logs_procesados):
         ruta_archivo = os.path.join(carpeta_logs_procesados, archivo)
-        try:
-            if os.path.isfile(ruta_archivo):
-                os.remove(ruta_archivo)
-        except:
-            pass
+    try:
+        if os.path.isfile(ruta_archivo):
+            os.remove(ruta_archivo)
+        elif os.path.isdir(ruta_archivo):
+            shutil.rmtree(ruta_archivo)  # ✅ elimina carpetas completas
+    except Exception:
+        pass
+
 
     # --------------------------------
     # Si es ZIP, descomprimir
